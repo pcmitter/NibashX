@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NibashX Register</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/auth.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+</head>
+<body>
+
+<div class="auth-container">
+
+    <div class="auth-box">
+
+        <h1 class="auth-title">Create Account</h1>
+
+        <form id="registerForm">
+
+            <input type="text"
+            id="regName"
+            placeholder="Full Name"
+            required>
+
+            <input type="email"
+            id="regEmail"
+            placeholder="Email"
+            required>
+
+            <input type="password"
+            id="regPassword"
+            placeholder="Password"
+            required>
+
+            <input type="password"
+            id="confirmPassword"
+            placeholder="Confirm Password"
+            required>
+
+            <button type="submit">
+            Register
+            </button>
+
+        </form>
+
+        <p>
+        Already have an account?
+
+        <a href="login.html">
+        Login Here
+        </a>
+        </p>
+
+    </div>
+
+</div>
+
+<script src="js/auth.js"></script>
+
+</body>
+</html>

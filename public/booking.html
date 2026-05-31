@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Booking</title>
+
+<link rel="stylesheet" href="css/booking.css">
+
+</head>
+<body>
+
+<div class="booking-container">
+
+    <h1>Book Your Room</h1>
+
+<form id="bookingForm">
+
+    <input type="text"
+    placeholder="Full Name"
+    required>
+
+    <input type="email"
+    placeholder="Email"
+    required>
+
+    <label>From Date</label>
+    <input type="date" required>
+
+    <label>Till Date</label>
+    <input type="date" required>
+
+    <select required>
+
+        <option value="">
+        Select Room Type
+        </option>
+
+        <option>Standard Room</option>
+        <option>Deluxe Room</option>
+        <option>Suite Room</option>
+
+    </select>
+
+    <button type="submit">
+        Confirm Booking
+    </button>
+
+</form>
+
+<div id="popup" class="popup">
+
+    <div class="popup-content">
+
+        <h2>🎉 Booking Confirmed!</h2>
+
+        <p>
+            Thank you for choosing our hotel.<br>
+            Your reservation has been successfully submitted.
+        </p>
+
+        <button onclick="closePopup()">
+            OK
+        </button>
+
+    </div>
+
+</div>
+
+</div>
+
+</body>
+</html>

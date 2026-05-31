@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>NibashX Rooms</title>
+
+    <link rel="stylesheet" href="css/rooms.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+</head>
+<body>
+
+
+    <nav>
+
+        <div class="logo">
+            NibashX
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rooms.html">Rooms</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <section class="rooms">
+
+        <h1 class="title">
+            Explore Our Rooms
+        </h1>
+
+
+
+        <div class="filter-box">
+
+            <label>Maximum Price :</label>
+
+            <select id="priceFilter">
+
+                <option value="all">All</option>
+
+                <option value="3000">Below ₹3000</option>
+
+                <option value="6000">Below ₹6000</option>
+
+                <option value="10000">Below ₹10000</option>
+
+            </select>
+
+        </div>
+
+
+        <div class="room-container">
+
+
+            <div class="room-card" data-price="2500">
+                <div class="image-slider">
+                    <img src="assets/stdnimg1.jpg" class="active">
+                    <img src="assets/stdnimg2.jpg">
+                </div>
+
+                <div class="room-content">
+                    <h2>Standard Room</h2>
+                    <p class="price">₹2500 / Night</p>
+                    <p>Comfortable room for budget travelers.</p>
+
+                    <p class="availability available">
+                        Available
+                    </p>
+
+                    <button onclick="window.location.href='booking.html'">
+                        Book Room
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="room-card" data-price="5000">
+                <div class="image-slider">
+                    <img src="assets/dlx1.jpg" class="active">
+                    <img src="assets/dlx2.jpg">
+                </div>
+
+                <div class="room-content">
+                    <h2>Deluxe Room</h2>
+                    <p class="price">₹5000 / Night</p>
+                    <p>Elegant room with premium facilities.</p>
+
+                    <p class="availability available">
+                        Available
+                    </p>
+
+                    <button onclick="window.location.href='booking.html'">
+                        Book Room
+                    </button>
+
+                </div>
+            </div>
+
+
+            <div class="room-card" data-price="8500">
+                <div class="image-slider">
+                    <img src="assets/suite1.jpg" class="active">
+                    <img src="assets/suite2.jpg">
+                </div>
+
+                <div class="room-content">
+                    <h2>Suite Room</h2>
+                    <p class="price">₹8500 / Night</p>
+                    <p>Luxury suite with modern interior.</p>
+
+                    <p class="availability unavailable">
+                        Fully Booked
+                    </p>
+
+                    <button disabled>
+                        Unavailable
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+<script src="js/rooms.js"></script>
+
+</body>
+</html>
