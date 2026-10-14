@@ -69,15 +69,14 @@ Install the following tools before running the project:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+git clone https://github.com/pcmitter/NibashX
 ```
 
-Replace `YOUR-USERNAME` and `YOUR-REPOSITORY` with your GitHub username and repository name.
 
 ### 2. Navigate to the Project Directory
 
 ```bash
-cd YOUR-REPOSITORY
+cd NibashX
 ```
 
 ### 3. Start the Node.js Component
